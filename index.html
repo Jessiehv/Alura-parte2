@@ -11,13 +11,14 @@
         rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="style.css" />
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+     </head>
     <body>
         <header class="cabeçalho">
             <div class="container">
                 <input type="checkbox" id="menu" class="container__botao" />
                 <label for="menu">
-                    <span class="menu"></span>
+                    <span class="menu container__imagem"></span>
                 </label>
                 <ul class="lista-menu">
                     <li class="lista-menu_titulo">Categorias</li>
@@ -38,9 +39,17 @@
                     </li>
                   </ul>
                 <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
-            </div>
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+              </div>
+
+              <ul class="opções">
+                <li class="opções_item">Categorias</li>
+                <li class="opções_item"><a href="#" class="opções_link">Favoritos</a></li>
+                <li class="opções_item"><a href="#" class="opções_link">Minha estante</a></li>
+            </ul>
+
             <div class="container">
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
                 <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
                 <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
             </div>
@@ -175,25 +184,6 @@
 <footer class="rodapé">
   <h2 class="rodapé__titulo">Grupo Alura</h2>
   
-  <div class="rodapé__lista">
-  <ol class="rodapé__imagem"><img src="img/Caelum.png">Caelum</ol>
-  <ol class="rodapé__imagem"><img src="img/CasaDoCodigo.png">Casa do Código</ol>
-  <ol class="rodapé__imagem"><img src="img/Alura.png">Alura</ol>
-  <ol class="rodapé__imagem"><img src="img/AluraEmpresas.png">Alura Empresas</ol>
-  <ol class="rodapé__imagem"><img src="img/AluraLatam.png">Alura Latam</ol>
-  <ol class="rodapé__imagem"><img src="img/AluraLingua.png">Alura Língua</ol>
-  <ol class="rodapé__imagem"><img src="img/AluraStart.png">Alura Start</ol>
-  <ol class="rodapé__imagem"><img src="img/CarreiraSemFronteira.png">CSF</ol>
-  <ol class="rodapé__imagem"><img src="img/GUJ.png">GUJ</ol>
-  <ol class="rodapé__imagem"><img src="img/HipstersJobs.png">Hipsters Jobs</ol>
-  <ol class="rodapé__imagem"><img src="img/HipstersTech.png">Hipsters Tech</ol>
-  <ol class="rodapé__imagem"><img src="img/Layers.png">Layers</ol>
-  <ol class="rodapé__imagem"><img src="img/LikeABoss.png">Like a Boss</ol>
-  <ol class="rodapé__imagem"><img src="img/MusicDot.png">Music Dot</ol>
-  <ol class="rodapé__imagem"><img src="img/PM3.png">PM3</ol>
-  <ol class="rodapé__imagem"><img src="img/Scuba.png">Scuba</ol>
-
-  </div>
 </footer>
         
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
